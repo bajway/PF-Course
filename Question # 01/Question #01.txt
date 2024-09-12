@@ -1,0 +1,13 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 9/10/2024
+* File: Question # 01
+* Desc: Psuedo-code for speed conversion from km/sec to miles/hour
+*/
+
+ Start;
+ Speed in km/sec; // Input
+ speed in miles/hour= (speed in km/sec * 0.621371)*3600; // formula for speed conversion
+ Speed in miles/hour; // Output
+ stop;
