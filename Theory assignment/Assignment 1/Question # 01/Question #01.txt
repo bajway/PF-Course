@@ -11,3 +11,7 @@ PSUEDO CODE:
  speed in miles/hour= (speed in km/sec * 0.621371)*3600; // formula for speed conversion
  Speed in miles/hour; // Output
  stop;
+
+
+My approach towards this question:
+This question felt like starter as we were given a scenerio of simply coverting speed in km/sec to miles per hour 
