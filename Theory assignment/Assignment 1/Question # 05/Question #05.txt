@@ -1,0 +1,34 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 9/10/2024
+* File: Question # 05
+* Desc: Psuedo-code for initialize of irrigation based on conditions
+*/
+
+ Start;
+ Crop type: Wheat (W), Rice (R), Corn (C); // Input
+ if(crop== W || crop== R || crop== C){
+   if(crop== W){
+      if(soil moisture< 30% && not rained){
+        Display intiating irrigation; } // End if
+       else{
+         Display conditions not met !;
+         Stop;} // End else
+   } // End if
+ else if(crop==R){
+    if(soil moisture<25% && not rained){
+      Display initiating irrigation; } // End if
+      else{
+       Dispaly conditions not met !; } //End else
+ } // End else if 
+ else{
+   if(soil moisture<40%){
+     Display initiate irrigation; } // End if
+  else{
+   Display conditions not met !; } // End else
+  } //end else
+ Stop;
+
+My approach towards this question:
+In this question i applied multiple conditions just to arrive at the desired outcome as i was to design a program that controls a drone that helps in irigation, first thing i did was checked the condition for the crops. Secondly, checked conditions required for irrigation seperately and after doing a bunch of calculation an working i ended up with this solution. :)

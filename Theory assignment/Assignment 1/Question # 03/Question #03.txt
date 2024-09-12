@@ -1,0 +1,31 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 9/10/2024
+* File: Question # 03
+* Desc: Psuedo-code for checking eligibilty for marriage
+*/
+
+ Start
+ Province; Age; Gender((M)Male/Female(F)); //Input
+ While(Province==punjab){
+    if(gender==M){
+    if(age>=18){
+        Display eligible for marriage} // End if
+    } //End if
+ else{ 
+  age>=16;
+  Display You are eligible for marriage }// End else
+  }// End while
+ While(Provnice== sindh){
+   if( age>=18){
+   Display You are eligible for marriage; } // End if
+   else{
+   Display you are underage; } // End else
+ } // End while
+ while(Province!=sindh || Province!= punjab){
+   Display Record not found; } //End while
+ Stop;
+
+My approach towards this question:
+I was given a scenerio of checking minimum age for marriage so, i implemented mltiple conditions as per the questions and came up with this solution

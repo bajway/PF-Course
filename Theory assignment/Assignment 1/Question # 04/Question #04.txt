@@ -1,0 +1,23 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 9/10/2024
+* File: Question # 04
+* Desc: Psuedo-code for making shopping calculator that will provide user with the grand total and change given
+*/
+ 
+ Start;
+ Money, price of onions, apricots, grapes and tomatoes; // Input
+ Grand total= cost of onions * quantity+ cost of apricots * quantity + cost of grapes * quantity + cost of tomatoes * quantity; // calculation
+ if (Grand total> Money){
+    Display Insufficient Money!;
+  } // End if
+ else{
+  Change= Money - Grand total;
+  Display Grand total;
+  Display Money; } // End else
+ Stop;
+
+
+My approach towards this question:
+I was asked to design a calculator for Mr. Bhola that could help him in the shopping as he keeps on forgetting so i did my maths and multiplied the quantity with the price of item and stored that into grand total with all other fuits, i also applied a condition at the checkout, and finally displayed the grand total and the change Bhola had received.
