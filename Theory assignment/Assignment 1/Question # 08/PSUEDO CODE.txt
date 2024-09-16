@@ -1,0 +1,23 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 13/10/2024
+* File: Question # 08
+* Desc: Psuedo-code for Digit-sum program
+*/
+ 
+ Start;
+ Digit, number,sum;  //Declarig variable
+ sum=0;  // Intializing sum=0
+ Input any number;
+ While(number>0){  // applying while 
+     digit= numer % 10;
+     sum= sum + digit;
+     number= number/10;
+ } // End while-loop
+ print sum;
+Stop;
+
+
+My Approach:
+My approach towards this question was to first separate the digits of the number that i did by using integer division and modular operator and then add the digits to obtain the sum.	

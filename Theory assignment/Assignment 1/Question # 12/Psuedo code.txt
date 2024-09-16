@@ -1,0 +1,22 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 13/10/2024
+* File: Question # 12
+* Desc: Psuedo-code for Defusing bomb by placing 4L of water in a jug on it
+*/
+
+ Start;
+ Input jugs 3L and 4L;
+ Fill the 5L jug completely;
+ Pour the 5L jug into 3L jug until full;
+ Empty the 3L jug;
+ Pour the remaining 2L from 5L jug into 3L jug;
+ Again fill the 5L jug completely;
+ Pour from 5L jug into 3L jug until full;
+ You are left with 4L of water in 5L jug;
+ Stop;
+
+
+My Approach:
+It was basically an IQ based question where i had to do some logical thinking and separate 4L of water to defuse the bomb so, i did some basic calculation and achieved the required result.

@@ -1,0 +1,48 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 13/10/2024
+* File: Question # 07
+* Desc: Psuedo-code for Displaying the floor number
+*/
+
+ Start;
+ Input any number;  // 7-digit binary number eg: 1101011
+ if(n==1111110){
+	print "0";
+ }
+ else if(number==0110000){
+	print "1";
+ }
+else if(number==1101101){
+	print "2";
+ }
+else if(number==1111001){
+	print "3";
+ }
+else if(number==0110011){
+	print "4";
+ }
+else if(number==1011011){
+	print "5";
+ }
+else if(number==0011111){
+	print "6";
+ }
+else if(number==1110000){
+	print "7";
+ }
+else if(number==1111111){
+	print "8";
+ }
+else if(number==1110011){
+	print "9";
+ }
+else{
+	print "Invalid input";
+ }
+ Stop;
+
+
+My Approach:
+First, i identified the patterns that was being displayed on the screen(it took me almost 1 hour) and then i encrypted the patterns in 0's and 1's and applied multiple conditions for printing the floor number.  
