@@ -1,0 +1,43 @@
+PSUEDO CODE:
+/*
+* Name: Kashif Mehmood (24K-2539)
+* Date: 13/10/2024
+* File: Question # 06
+* Desc: Psuedo-code for checking the eligibility for a particular ride
+*/
+
+Start;
+Input ride, age, height; // ride--->string; age,height--->integer
+if(ride== The dragon roller coaster && ride==The sky swing && ride== The carousel){
+ for dragon roller coaster:
+//height is in inches and age in years
+ if (age>=10 && height>=48){
+	print "You are eligible for dragon coaster ride";
+ }
+else{
+print "You are not eligible for dragon coaster ride";
+}
+
+ for The sky swing:
+ if ( height>=54){
+	print "You are eligible for The sky swing ride";
+ }
+else{
+print "You are not eligible for The sky swing ride";
+}
+
+ for The carousel:
+ if (age>=5){
+	print "You are eligible for The carousel ride";
+ }
+else{
+print "You are not eligible for The carousel ride";
+}
+} //End if
+else{
+print "Ride not found! Try again";
+} //End else
+Stop;
+
+My Approach:
+At first i applied condition for checking available rides and then applied conditions for particular ride such as age and height, and displayed the eligibility for the ride.
